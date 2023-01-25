@@ -1,0 +1,114 @@
+Texturizer is a different take on granular modulation. 
+Texturizer is specifically catered for creating unpredictable and unique textures in drum loops.
+Add simple background color to your drums or completely thrash them, the choice is yours!
+------------------------------------------------------------------------------------------------------------------------------------------
+
+nstallation Instructions:
+
+No installation is required, simply run the exe file and you can use the application. 
+
+If you do not have Max installed on your computer, you must first run Microsoft Visual C++ 2013 Redistributable Package. The download for this can be found here: https://www.microsoft.com/en-us/download/details.aspx?id=40784
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Using The App:
+
+In order to start the app, press the speaker button at the bottom right corner. 
+
+Drag a sample into the sample box where it says "Drop Sample Here" and you can start modulating.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Sample Selector:
+
+Drop Box:
+
+Select a file by dropping the sample into the Drop box labeled "Drop Sample Here"
+
+Sample Start and Stop Selector:
+
+Texturizer allows you to only select parts of your sample to run through the granulizer engine. Use this box to select where your granulation sample will start and end. 
+Only the part highlighted in yellow will be run through the granulizer engine.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Granulizer:
+
+To start the engine, select the toggle next to "start grain emitter". This will start the engine and will return a constant stream of grains based on your Grain Controller options. 
+To send through a simple grain, tap the button next to "single grain". 
+Enabling multiple threads allows multiple grains to be processed at once, this is recommended to be turned on for the best results.
+ 
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Grain Controller:
+
+Texturizer allows you to have complete control over granulation engine. Use this section to manipulate the grains until you get what you want.
+
+Length-slope XY plot:
+
+This plot allows you to visually affect the length and attack time of your grains. 
+Texturizer allows you complete freedom with granulization. If you want short grains with a fast attack, move the circle in the plot to the bottom left. 
+If you want long grains with a long attack, move the circle in the plot to the top right.
+
+Grain Amplitude:
+
+This knob allows you to control the average amplitude of each grain.
+
+Grain Distance:
+
+This knob allows you to control the average distance of time between each grain.
+
+Variation:
+
+This knob allows you to vary individual grains. 
+A variation of 0 ensures that all grains will have the same amplitude, distance and pitch.
+Higher variation levels will randomize the grains, allowing you to add a human feel to your grains to better fit the groove of your drum loop.
+
+Grain Pan:
+
+This knob allows you to affect the average pan level of each grain. It is set at 50% initially.
+
+Pan Variation:
+
+This knob is the variation of pan between each grain. The higher the pan variation, the more spread out your grains will be in the stereo field.
+
+Grain Pitch:
+
+This number box allows you to control the pitch of the grains. It is set at 1, meaning the same pitch as the loop.
+Moving this number down will decrease the pitch and moving it up will increase the pitch. 
+
+
+Constant Pitch:
+
+If you want to have a high variation in your grain's amplitude and distance, but no variation in their pitches, use this toggle to keep the pitches constant.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Effects:
+
+Texturizer has an effect engine for your loop. The effects allow you to warm up the granulization or add reverb as well as filter the output.
+
+Warmth knob:
+
+This knob allows you to add saturation to the loop. This is best used in small amounts to warm up the grains.
+
+Space knob:
+
+This knob allows you to add reverb to the loop. 
+The algorithm selector next to the knob allows you to change the reverb algorithm you are using. 
+
+Filters:
+
+Texturizer includes a highpass and lowpass filter to allow you to include only the frequencies you need from the loop.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Mixer:
+
+wet/dry knob:
+
+Use this knob to adjust the volume of the granulized loop versus the dry loop. It is set at 100% wetness on startup.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Created by Rocky Oberti
